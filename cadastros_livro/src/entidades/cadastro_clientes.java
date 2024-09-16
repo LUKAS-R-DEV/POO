@@ -98,7 +98,7 @@ public class cadastro_clientes {
 
 	@Override
 	public String toString() {
-		return "cadastro_clientes\n" + "nome=" + nome + "\n" + "email=" + email + "\n]";
+		return "cadastro_clientes\n" + "[nome=" + nome + "\n" + "email=" + email + "]"+"\n";
 	}
 
 }

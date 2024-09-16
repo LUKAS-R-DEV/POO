@@ -125,7 +125,9 @@ public class cadastro_livro {
 			dataPublicacao = sdf.parse(dataString);
 
 		} catch (ParseException e) {
-			System.out.println("Erro ao analisar data!");
+			System.out.println("Erro ao Adicionar a data!");
+			pausar();
+			return;
 		}
 
 		System.out.println("Digite o nome da editora");
@@ -209,7 +211,7 @@ public class cadastro_livro {
 	public String toString() {
 		return "cadastro_livro [" + "idLivro=" + idLivro + "\n" + "titulo=" + titulo + "\n" + "autor=" + autor + "\n"
 				+ "editora=" + editora + "\n" + "dataPublicacao=" + sdf.format(dataPublicacao) + "\n" + "numeroPaginas="
-				+ numeroPaginas + "\n" + "genero=" + genero + "\n" + "disponivel=" + disponivel + "]";
+				+ numeroPaginas + "\n" + "genero=" + genero + "\n" + "disponivel=" + disponivel + "]"+"\n";
 	}
 
 }
