@@ -16,7 +16,7 @@ public class programa {
 		try {
 
 			do {
-				System.out.println("selecione uma opção");
+				System.out.println("Selecione uma opção");
 				System.out.println("CADASTRAR LIVROS-> 1");
 				System.out.println("EXIBIR LIVROS-> 2");
 				System.out.println("REMOVER LIVROS-> 3");
